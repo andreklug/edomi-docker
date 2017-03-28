@@ -34,8 +34,8 @@ RUN sed -i -e "\$aLoadModule log_config_module modules/mod_log_config.so" /etc/h
 RUN sed -i -e "\$aLoadModule setenvif_module modules/mod_setenvif.so" /etc/httpd/conf.d/ssl.conf
 
 # Enable Volumes
-/var/edomi-backup
-/usr/local/edomi/www/data/log/
+VOLUME /var/edomi-backup/
+VOLUME /usr/local/edomi/www/data/log/
 
 
 # copy entrypoint script
