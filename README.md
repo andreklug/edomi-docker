@@ -1,4 +1,6 @@
 ## edomi-docker (Edomi release: v1.48)
+
+## forked from pfischi/edomi to allow mounting of paths (test)
  
  This is a docker implementation for Edomi, a PHP-based smarthome framework.
  For more information please refer to:
